@@ -10,7 +10,7 @@ from statannotations.Annotator import Annotator
 
 # --- LOAD DATA  
 PND=6
-df_dur = pd.read_csv(r"data2fig/lfc_usv_data_pnd"+str(PND)+r"_pub.csv")
+df_dur = pd.read_csv(r"lfc_usv_data_pnd"+str(PND)+r"_pub.csv")
 
 print(f"Male: {df_dur[df_dur['sex']=='M']['sex'].count()}")
 print(f"Fema: {df_dur[df_dur['sex']=='F']['sex'].count()}")
